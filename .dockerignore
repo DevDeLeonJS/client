@@ -1,0 +1,35 @@
+# Dependencias locales (EL MÁS IMPORTANTE)
+node_modules
+npm-debug.log
+
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Build output local
+dist
+build
+out
+
+# Configuración y Linting (ya no se necesitan en la imagen de nginx)
+eslint.config.js
+.prettierrc
+.editorconfig
+
+# Documentación
+README.md
+docs
+
+# Variables de entorno (¡Seguridad!)
+.env
+.env.local
+.env.production
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
