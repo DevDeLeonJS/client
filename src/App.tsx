@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Version 1.0.0</h1>
+      <h1>Version 1.0.1 - staging</h1>
       <div>
         <div></div>
         <a href="https://vite.dev" target="_blank">
