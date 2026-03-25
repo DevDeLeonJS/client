@@ -31,8 +31,8 @@ steps:
       - npx playwright install --with-deps 
       - npx playwright test
       
-      - docker stop app-container
-      - docker rm app-container
+      # - docker stop app-container
+      # - docker rm app-container
 
 volumes:
   - name: docker_sock
