@@ -19,11 +19,11 @@ steps:
       GITHUB_TOKEN:
         from_secret: github_token 
     commands:
-      - docker build -t DevDeLeonJS/app-vite:latest .
+      # - docker build -t DevDeLeonJS/app-vite:latest .
       
-      - docker run -d --name app-container -p 3000:80 DevDeLeonJS/app-vite:latest
+      # - docker run -d --name app-container -p 3000:80 DevDeLeonJS/app-vite:latest
       
-      - sleep 10 
+      # - sleep 10 
       
       - git clone https://$GITHUB_TOKEN@github.com/DevDeLeonJS/test-.git
       - cd test-
